@@ -1,5 +1,33 @@
-# Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5
+# YouTube Clone - Modern CI/CD on Azure (AZ-400 Lab) 🚀
 
-![YouTube](https://i.ibb.co/4R5RkmW/Thumbnail-5.png)
+This project is a core part of my **SRE & DevOps portfolio**. It focuses on implementing a modern Continuous Delivery (CD) pipeline using the industry best practices required for the **Microsoft AZ-400 certification**.
 
-## We will use this project for our Day4/16 video of Azure DevOps Zero to Hero series
+## 🎯 Project Objectives
+
+- **Infrastructure as Code (IaC):** Provisioning Azure resources using **Terraform** or **Bicep**.
+- **Multistage Pipelines:** Designing a robust **YAML-based** pipeline in Azure DevOps.
+- **Shift-Left Security:** Implementing automated scanning with **SonarCloud** and **Trivy**.
+- **Observability:** Integrating **Azure Monitor** and **Application Insights** for real-time health checks.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Node.js)
+- **CI/CD:** Azure Pipelines (YAML)
+- **Cloud Provider:** Microsoft Azure
+- **Security & Quality:** SonarCloud, Trivy, Dependabot
+- **IaC:** Terraform / Bicep
+
+## 🏗️ Architecture (Phase 1)
+
+_Under Construction: Diagram illustrating the Git Flow -> Azure Pipelines -> Azure Web Apps logic._
+
+---
+
+## 📝 Study Notes (AZ-400 Mapping)
+
+This project documents design decisions aligned with the DevOps pillars:
+
+1. **Continuous Integration:** Automated builds and unit testing.
+2. **Continuous Delivery:** Automated deployments with manual approval gates.
+3. **Dependency Management:** Secure handling of npm packages and container images.
+4. **Security & Compliance:** Vulnerability scanning and secret management via Azure Key Vault.
